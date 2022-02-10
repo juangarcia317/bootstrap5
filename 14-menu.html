@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mis actividades</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/sidebars.css">
+  <style>
+
+  #marco {
+      height: 900px;
+      width: 1200px;
+      border:none;
+      padding: 1rem;
+  }
+  </style>
+</head>
+<body>
+
+<div class="row">
+<!--div id="sidebar" class="flex-shrink-0 p-3 bg-white" style="width: 280px;"-->
+ <div class="col-3">
+     <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
+       <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+       <span class="fs-5 fw-semibold">Menú de entregas</span>
+     </a>
+     <ul class="list-unstyled ps-0">
+       <li class="mb-1">
+         <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+           Entrega 10 enero
+         </button>
+         <div class="collapse show" id="home-collapse">
+           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+             <li><a href="4-bordercolor.html" target="destino" class="link-dark rounded">4-bordercolor</a></li>
+             <li><a href="5-colores.html" target="destino" class="link-dark rounded">5-colores</a></li>
+             <li><a href="8-botones.html" target="destino" class="link-dark rounded">botones</a></li>
+           </ul>
+         </div>
+       </li>
+       <li class="mb-1">
+         <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+           Entrega 10 febrero
+         </button>
+         <div class="collapse" id="dashboard-collapse">
+           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+             <li><a href="#" class="link-dark rounded">Actividad1</a></li>
+             <li><a href="#" class="link-dark rounded">Actividad2</a></li>
+             <li><a href="#" class="link-dark rounded">Actividad3</a></li>
+             <li><a href="#" class="link-dark rounded">Actividad4</a></li>
+           </ul>
+         </div>
+       </li>
+       <li class="mb-1">
+         <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
+           Entrega 10 marzo
+         </button>
+         <div class="collapse" id="orders-collapse">
+           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+             <li><a href="#" class="link-dark rounded">Actividad1</a></li>
+             <li><a href="#" class="link-dark rounded">Actividad2</a></li>
+             <li><a href="#" class="link-dark rounded">Actividad3</a></li>
+             <li><a href="#" class="link-dark rounded">Actividad4</a></li>
+           </ul>
+         </div>
+       </li>
+       <li class="border-top my-3"></li>
+       <li class="mb-1">
+         <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
+           Mis datos
+         </button>
+         <div class="collapse" id="account-collapse">
+           <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+             <li><a href="#" class="link-dark rounded">Perfil en linkedin</a></li>
+             <li><a href="#" class="link-dark rounded">Otras páginas realizadas</a></li>
+             <li><a href="13-menu.html" class="link-dark rounded">Página principal</a></li>
+             <li><a href="#" class="link-dark rounded">Página del IES</a></li>
+           </ul>
+         </div>
+       </li>
+     </ul>
+  </div><!--fin div menú-->
+  <div class="col-9">
+      <iframe id="marco" src="12-perfil.html" name="destino"  scrolling="no"  title="description"></iframe>
+    </div>
+</div>
+
+</body>
+</html>
